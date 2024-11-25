@@ -1,0 +1,14 @@
+Explanation of the Code
+1.	Data Preparation:
+•	A dictionary containing patient feedback is created and then converted into a pandas DataFrame for easier manipulation.
+
+2.	Sentiment Analysis Function:
+•	The analyze_sentiment function uses TextBlob to analyze the sentiment of the feedback.
+
+•	The sentiment polarity score is used to classify feedback into three categories: Positive, Negative, and Neutral.
+
+3.	Applying the Function:
+•	The sentiment analysis function is applied to each feedback entry, and the results are stored in a new column in the DataFrame.
+
+4.	Display Results:
+•	xsentiment classifications, is printed.
